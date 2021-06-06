@@ -1,4 +1,3 @@
-" This is a comment from KDE neon
 filetype plugin indent on
 
 " Settings
