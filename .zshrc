@@ -103,4 +103,4 @@ source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 # Aliases
 alias proj='cd ~/Desktop/Projects'
-alias config='/usr/bin/git --git-dir=/Users/chrisjurrens/.cfg/ --work-tree=/Users/chrisjurrens'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
