@@ -99,8 +99,13 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Syntax Highlighting
-source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Aliases
 alias proj='cd ~/Desktop/Projects'
-alias config='/usr/bin/git --git-dir=/Users/chrisjurrens/.cfg/ --work-tree=/Users/chrisjurrens'
+alias config='/usr/bin/git --git-dir=/home/chris/.cfg/ --work-tree=/home/chris/'
+source /home/chris/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
