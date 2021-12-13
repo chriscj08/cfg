@@ -104,3 +104,11 @@ source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 # Aliases
 alias proj='cd ~/Desktop/Projects'
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+#Functions
+#Using Brew on Apple Silicon
+arch-brew () {
+	arch -x86_64 brew install $1
+}
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
